@@ -55,14 +55,7 @@ There are no required dependencies yet.
 To create a local `.env` file from the example:
 
 ```bash
-./scripts/bootstrap.sh
-```
-
-If the script is not executable on your machine, run:
-
-```bash
-chmod +x scripts/bootstrap.sh
-./scripts/bootstrap.sh
+bash scripts/bootstrap.sh
 ```
 
 ## Repository Structure
