@@ -2,11 +2,11 @@
 
 ## Project Status
 
-This repository is currently a Codex-ready starter template for a personal Career OS. No application stack has been selected yet.
+This repository is currently an AI-assistant-ready starter template for a personal Career OS. No application stack has been selected yet.
 
 Do not assume a framework, package manager, database, or hosting platform unless the user explicitly chooses one or the repository later contains the relevant files.
 
-This repository is intended to work with the user's own Codex or LLM coding agent. The repo should contain enough instructions, examples, and setup notes for another user to clone it, open it in their own AI coding environment, and have that agent follow the Career OS workflow without needing private context from the original creator.
+This repository is intended to work with the user's own AI coding assistant or LLM workspace, such as Codex, Claude Code, Cursor, or another repo-aware assistant. The repo should contain enough instructions, examples, and setup notes for another user to clone it, open it in their own AI coding environment, and have that agent follow the Career OS workflow without needing private context from the original creator.
 
 ## Product Intent
 
@@ -31,9 +31,9 @@ Supporting areas may include:
 - Networking and follow-ups
 - Skills, projects, and learning plans
 
-## How To Start In Codex
+## How To Start In An AI Assistant
 
-When a user opens this repository in Codex, start by reading:
+When a user opens this repository in an AI coding assistant or LLM workspace, start by reading:
 
 1. `README.md`
 2. `.env.example`
