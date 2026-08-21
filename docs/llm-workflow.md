@@ -1,6 +1,6 @@
 # LLM Workflow
 
-This document defines how a user's own Codex or LLM assistant should operate inside this repository.
+This document defines how a user's own AI coding assistant or LLM workspace should operate inside this repository.
 
 The goal is not to rely on hidden context from the original project creator. A new user should be able to clone or copy this repo, open it in their own AI coding environment, and get the same Career OS behavior.
 
