@@ -142,7 +142,7 @@ There are no required dependencies yet.
 Optional local bootstrap:
 
 ```bash
-./scripts/bootstrap.sh
+bash scripts/bootstrap.sh
 ```
 
 ## Expected Structure
