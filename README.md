@@ -1,14 +1,41 @@
 # Career OS
 
-Career OS is an AI-assistant-ready starter template for building a CV-first career operating system.
+Your private AI-powered career workspace.
 
-Use it to analyze a user's current CV, create a strong master CV, compare that CV against job postings, and generate ATS-friendly role-specific CV versions.
+Turn one messy CV into a polished master CV, compare it with real job posts, understand your match score, and generate ATS-friendly tailored CVs without starting from scratch every time.
 
-## Current Status
+Career OS is not another resume template. It is a repo-based workflow that your own AI assistant can read, run, and customize for you.
 
-This repository is intentionally minimal. No app framework, language runtime, database, or hosting platform has been selected yet.
+## What It Does
 
-That keeps the project easy to adapt. The default product flow is:
+Career OS helps your AI assistant:
+
+- Read and analyze your current CV
+- Find weak sections, missing proof, unclear bullets, and ATS risks
+- Build a reusable master CV
+- Export clean, ATS-friendly PDFs
+- Compare your CV with job postings
+- Give a match score with real reasoning
+- Create tailored CV versions for specific roles
+- Keep changes traceable so you know what changed and why
+
+## How It Feels To Use
+
+Instead of asking:
+
+```text
+Can you improve my CV?
+```
+
+You can ask:
+
+```text
+Here is my CV and here is a job posting. Score the match, explain the gaps, and create a tailored ATS-friendly version without inventing anything.
+```
+
+Career OS gives your assistant the rules, structure, and workflow so every session starts smarter.
+
+## Default Workflow
 
 1. Ask the user for their current CV.
 2. Analyze the CV and identify improvements.
@@ -18,6 +45,12 @@ That keeps the project easy to adapt. The default product flow is:
 6. Explain strengths, gaps, risks, and suggested changes.
 7. Create a tailored CV for the posting when useful.
 8. Run an ATS compatibility check before every final CV export.
+
+## Current Status
+
+This repository is intentionally minimal. No app framework, language runtime, database, or hosting platform has been selected yet.
+
+That keeps the project easy to adapt. The first version is a file-based workflow that any repo-aware AI assistant can understand before a full app is built.
 
 Future versions can add application tracking, interview prep, networking follow-ups, and learning plans.
 
