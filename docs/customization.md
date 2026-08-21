@@ -135,7 +135,7 @@ Common data types:
 - Skills
 - Learning tasks
 
-## 9. Ask Codex For The Smallest Build
+## 9. Ask Your AI Assistant For The Smallest Build
 
 Use this prompt after filling out the sections above:
 
