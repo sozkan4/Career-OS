@@ -1,6 +1,6 @@
 # Career OS
 
-Career OS is a Codex-ready starter template for building a CV-first career operating system.
+Career OS is an AI-assistant-ready starter template for building a CV-first career operating system.
 
 Use it to analyze a user's current CV, create a strong master CV, compare that CV against job postings, and generate ATS-friendly role-specific CV versions.
 
@@ -21,9 +21,9 @@ That keeps the project easy to adapt. The default product flow is:
 
 Future versions can add application tracking, interview prep, networking follow-ups, and learning plans.
 
-## Open In Your Own Codex
+## Open In Your Own AI Assistant
 
-This repo is designed so each user can open it with their own Codex or LLM coding assistant. The assistant should read the repo instructions and run the same CV-first workflow locally for that user.
+This repo is designed so each user can open it with their own AI coding assistant or LLM workspace, such as Codex, Claude Code, Cursor, or another local repo-aware assistant. The assistant should read the repo instructions and run the same CV-first workflow locally for that user.
 
 ### Option 1: Use As A Template
 
@@ -33,7 +33,7 @@ If this repository is marked as a GitHub template:
 2. Click **Use this template**.
 3. Create a copy under your own GitHub account.
 4. Clone your copy locally.
-5. Open the folder in Codex.
+5. Open the folder in your AI coding assistant.
 
 ### Option 2: Clone Directly
 
@@ -42,7 +42,7 @@ git clone https://github.com/sozkan4/Career-OS.git
 cd Career-OS
 ```
 
-Then open this folder in Codex and say:
+Then open this folder in your AI assistant and say:
 
 ```text
 Read AGENTS.md, README.md, docs/customization.md, and docs/llm-workflow.md. Act as my Career OS assistant. Start by asking for my current CV, analyze it, help me create a master CV PDF, then let me compare it against job postings and create ATS-friendly tailored CVs.
