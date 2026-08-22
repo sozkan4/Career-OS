@@ -16,3 +16,16 @@ __pycache__/
 
 coverage/
 .pytest_cache/
+
+# Private Career OS working data
+data/**
+!data/
+!data/.gitkeep
+!data/job-postings/
+!data/job-postings/.gitkeep
+!data/tailored/
+!data/tailored/.gitkeep
+!data/reports/
+!data/reports/.gitkeep
+!data/exports/
+!data/exports/.gitkeep

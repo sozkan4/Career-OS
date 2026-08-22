@@ -19,6 +19,18 @@ Career OS helps your AI assistant:
 - Create tailored CV versions for specific roles
 - Keep changes traceable so you know what changed and why
 
+## Try The Demo
+
+The `examples/` folder contains synthetic career data so you can test the workflow without using a real CV first:
+
+- `examples/sample-current-cv.md`
+- `examples/sample-current-cv.pdf`
+- `examples/sample-job-description.md`
+- `examples/sample-match-report.md`
+- `examples/sample-ats-report.md`
+
+All examples are fictional and exist only to demonstrate the expected flow and output quality.
+
 ## How It Feels To Use
 
 Instead of asking:
@@ -81,6 +93,12 @@ Then open this folder in your AI assistant and say:
 Read AGENTS.md, README.md, docs/customization.md, and docs/llm-workflow.md. Act as my Career OS assistant. Start by asking for my current CV, analyze it, help me create a master CV PDF, then let me compare it against job postings and create ATS-friendly tailored CVs.
 ```
 
+For a quick no-risk demo, use:
+
+```text
+Read AGENTS.md, README.md, docs/llm-workflow.md, examples/sample-current-cv.md, and examples/sample-job-description.md. Run the Career OS workflow on the synthetic example data. Produce a match score, tailoring recommendations, and an ATS review.
+```
+
 ## Local Setup
 
 There are no required dependencies yet.
@@ -99,9 +117,12 @@ Career-OS/
 ├── README.md
 ├── .env.example
 ├── .gitignore
+├── data/
 ├── docs/
 │   ├── customization.md
 │   └── llm-workflow.md
+├── examples/
+├── prompts/
 └── scripts/
     └── bootstrap.sh
 ```

@@ -39,6 +39,7 @@ When a user opens this repository in an AI coding assistant or LLM workspace, st
 2. `.env.example`
 3. `docs/customization.md`
 4. `docs/llm-workflow.md`
+5. Example files in `examples/`, if the user wants a demo before using private data
 
 Then ask the user what they want Career OS to become before choosing a stack or creating app code.
 
@@ -98,6 +99,7 @@ Any LLM or coding agent working in this repo should:
 - Run an ATS check before presenting any final CV.
 - Save outputs in predictable folders once an app or file workflow exists.
 - Make the workflow usable even if job posting links cannot be fetched, by accepting pasted job descriptions.
+- Use `examples/` only as synthetic demonstration data. Never treat example content as a real user's facts.
 
 ## PDF Generation Requirements
 
@@ -153,9 +155,12 @@ Career-OS/
 ├── README.md
 ├── .env.example
 ├── .gitignore
+├── data/
 ├── docs/
 │   ├── customization.md
 │   └── llm-workflow.md
+├── examples/
+├── prompts/
 └── scripts/
     └── bootstrap.sh
 ```
